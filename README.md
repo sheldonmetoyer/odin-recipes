@@ -9,3 +9,6 @@ I will use the basics of HTML.
 5. headings
 
 I will also pracitce utilizing git to commit and push changes
+
+
+I have added some css to this project.

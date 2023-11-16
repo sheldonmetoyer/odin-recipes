@@ -1,0 +1,24 @@
+* {
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-weight: 100;
+    background-color: rgb(231, 131, 0);
+}
+
+#recipeList {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+}
