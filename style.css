@@ -3,22 +3,72 @@
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
-
-h1 {
-    font-size: 100px;
-    text-align: center;
-    font-weight: 100;
-    background-color: rgb(231, 131, 0);
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-#recipeList {
-    text-align: center;
-    font-size: 50px;
-}
-
-h2 {
+a:hover {
     text-decoration: underline;
+    background-color: rgb(103, 134, 134);
+    color: #fff;
+}
+
+body {
+    margin: auto 0;
+    background-color: rgb(148, 173, 173);
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.odinLogo {
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.odinNavMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.odinNavMenu li {
+    padding: 25px;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 60px;
+}
+
+.chefOdinImg {
+    height: 435px;
+    width: auto;
+    border-radius: 200px;
+}
+
+.recipeList {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1000px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.recipeList div {
+    padding: 30px;
+    width: 250px;
+}
+
+.recipeList div img {
+    height: 125px;
+    width: auto;
 }
